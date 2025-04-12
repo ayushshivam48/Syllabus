@@ -1,6 +1,8 @@
-🇫🇷 French Grammar – Modules I to V (Detailed)
-📘 Module I: Fond Memories
-🔹 1. Imparfait (Past habitual/description tense)
+*🇫🇷 French Grammar*
+  
+**📘 Module I: Fond Memories**
+
+***1. Imparfait (Past habitual/description tense)***
 Used for past habits, ongoing actions, or descriptions.
 
 🔧 Formation:
@@ -18,7 +20,7 @@ Ils	-aient	Ils parlaient
 Ex: Quand j’étais petit, je jouais dans le jardin.
 (When I was little, I used to play in the garden.)
 
-🔹 2. Passé Composé (Completed past actions)
+***2. Passé Composé (Completed past actions)***
 ✅ With ‘avoir’
 Formation: Subject + avoir (present) + past participle
 
@@ -32,7 +34,7 @@ Formation: Subject + être + past participle (must agree in gender/number)
 Elle est allée (She went)
 Nous nous sommes réveillés (We woke up)
 
-🔹 3. Difference Between Imparfait vs Passé Composé
+***3. Difference Between Imparfait vs Passé Composé***
 Imparfait	Passé Composé
 Ongoing/Repeated past actions	Completed past actions
 Descriptions (age, weather, etc.)	Specific events
