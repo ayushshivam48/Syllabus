@@ -1,4 +1,4 @@
-*🇫🇷 French Grammar*
+* 🇫🇷 French Grammar *
   
 **📘 Module I: Fond Memories**
 
