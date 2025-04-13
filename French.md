@@ -66,3 +66,58 @@ Background setting	Main storyline/action
 Ex: Il faisait beau (imparfait) et j’ai joué au foot (passé composé).
 
 (It was sunny and I played football.)
+
+
+
+
+## ✈️ Module II: Planning for a Vacation
+
+
+### 1. Future Tense (Le futur simple)
+
+Used for expressing what will happen.
+
+
+#### 🔧 Formation:
+
+Infinitive verb + endings: -ai, -as, -a, -ons, -ez, -ont
+
+
+#### Subject	Example with voyager
+
+Je	voyagerai
+
+Tu	voyageras
+
+Il/Elle	voyagera
+
+Nous	voyagerons
+
+Vous	voyagerez
+
+Ils	voyageront
+
+
+####🧠 Irregular Verbs:
+
+être → ser- (je serai)
+
+avoir → aur- (tu auras)
+
+aller → ir- (il ira)
+
+faire → fer- (nous ferons)
+
+
+
+### 2. Present Progressive (En train de...)
+
+Used for describing what someone is doing right now.
+
+####🔧 Formation: être (present) + en train de + infinitive
+
+Je suis en train de lire. (I’m reading now)
+
+Ils sont en train de manger. (They are eating now)
+
+
