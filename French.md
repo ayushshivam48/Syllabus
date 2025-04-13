@@ -123,7 +123,7 @@ Ils sont en train de manger. (They are eating now)
 
 
 
-##🏨 Module III: At the Hotel
+## 🏨 Module III: At the Hotel
 
 
 ### 1. Negative Expressions
@@ -153,3 +153,39 @@ un lit double  ->  a double bed
 petit déjeuner inclus  ->  breakfast included
 
 avec vue sur la mer  ->  with a sea view
+
+
+
+
+## 🗼 Module IV: Treasures of France
+
+
+### 1. COD (Complément d’objet direct)
+
+#### Replaces direct objects: le, la, l’, les
+
+Je vois le film → Je le vois.
+
+Elle mange la pomme → Elle la mange.
+
+#### 🔁 Placement: Before the verb
+
+
+### 2. COI (Complément d’objet indirect)
+
+#### Replaces indirect objects: lui, leur
+
+Je parle à Paul → Je lui parle.
+
+Nous écrivons aux filles → Nous leur écrivons.
+
+###  3. Monuments of France
+
+La Tour Eiffel → Paris symbol, 324m high
+
+Le Louvre → Art museum (Mona Lisa)
+
+Le Mont-Saint-Michel → Island commune
+
+Le Château de Versailles → Royal palace
+
