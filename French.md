@@ -98,7 +98,7 @@ Vous	voyagerez
 Ils	voyageront
 
 
-####🧠 Irregular Verbs:
+#### 🧠 Irregular Verbs:
 
 être → ser- (je serai)
 
@@ -110,14 +110,46 @@ faire → fer- (nous ferons)
 
 
 
-### 2. Present Progressive (En train de...)
+###  2. Present Progressive (En train de...)
 
 Used for describing what someone is doing right now.
 
-####🔧 Formation: être (present) + en train de + infinitive
+#### 🔧 Formation: être (present) + en train de + infinitive
 
 Je suis en train de lire. (I’m reading now)
 
 Ils sont en train de manger. (They are eating now)
 
 
+
+
+##🏨 Module III: At the Hotel
+
+
+### 1. Negative Expressions
+
+#### Expression	Meaning	Example
+
+ne…pas -> not -> Je ne comprends pas.
+
+ne…jamais -> never -> Il ne voyage jamais.
+
+ne…rien -> nothing -> Elle ne dit rien.
+
+ne…plus -> no longer -> Je ne fume plus.
+
+#### 📌 ne is placed before the verb, the second part after the verb.
+
+### 2. Hotel Vocabulary
+
+réserver une chambre – to book a room
+
+une clé  ->  a key
+
+une nuit  ->  a night
+
+un lit double  ->  a double bed
+
+petit déjeuner inclus  ->  breakfast included
+
+avec vue sur la mer  ->  with a sea view
