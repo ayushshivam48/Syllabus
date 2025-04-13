@@ -1,19 +1,19 @@
 # French Grammar
   
-##📘 Module I: Fond Memories
+## 📘 Module I: Fond Memories
 
 
-###1. Imparfait (Past habitual/description tense)
+### 1. Imparfait (Past habitual/description tense)
 
 Used for past habits, ongoing actions, or descriptions.
 
 
-####🔧 Formation:
+#### 🔧 Formation:
 
 Take the “nous” form of the present tense → remove -ons → add endings:
 
 
-####Subject	Ending	Example (parler)
+#### Subject	Ending	Example (parler)
 
 Je ->	-ais ->	Je parlais
 
@@ -27,22 +27,22 @@ Vous ->	-iez ->	Vous parliez
 
 Ils ->	-aient ->	Ils parlaient
 
-####🎯 Used for: feelings, age, time, background, repeated actions.
+#### 🎯 Used for: feelings, age, time, background, repeated actions.
 
 Ex: Quand j’étais petit, je jouais dans le jardin.
 
 (When I was little, I used to play in the garden.)
 
 
-###2. Passé Composé (Completed past actions)
+### 2. Passé Composé (Completed past actions)
 
-####✅ With ‘avoir’
+#### ✅ With ‘avoir’
 
 Formation: Subject + avoir (present) + past participle
 
 J’ai mangé (I ate), Tu as fini (You finished), Il a parlé (He spoke)
 
-####✅ With ‘être’ (movement & reflexive verbs)
+#### ✅ With ‘être’ (movement & reflexive verbs)
 
 DR MRS VANDERTRAMP verbs + all reflexive verbs
 
@@ -53,9 +53,9 @@ Elle est allée (She went)
 Nous nous sommes réveillés (We woke up)
 
 
-###3. Difference Between Imparfait vs Passé Composé
+### 3. Difference Between Imparfait vs Passé Composé
 
-####Imparfait	Passé Composé
+#### Imparfait	Passé Composé
 
 Ongoing/Repeated past actions	Completed past actions
 
