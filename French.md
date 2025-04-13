@@ -189,3 +189,57 @@ Le Mont-Saint-Michel → Island commune
 
 Le Château de Versailles → Royal palace
 
+
+
+
+##💖 Module V: Someone Special
+
+
+### 1. Gender of Adjectives
+
+Masculine	Feminine
+
+petit	petite
+
+actif	active
+
+travailleur	travailleuse
+
+gentil	gentille
+
+
+###  2. Number of Adjectives (Plural Forms)
+
+ Singular               Plural
+ 
+  petit                 petits
+  
+intelligente	       intelligentes
+
+
+#### Adjectives ending in -s/-x stay the same:
+
+un garçon français → des garçons français
+
+### 3. Multiple Adjectives with Noun
+
+BAGS Rule: These go before the noun
+
+Beauty: beau, joli
+
+Age: jeune, vieux, nouveau
+
+Goodness: bon, mauvais
+
+Size: petit, grand, gros
+
+#### 📝 Examples:
+
+Un petit garçon blond
+
+Une belle actrice intelligente
+
+#### 🧠 Mini Exercise Ideas
+✔ Change: Il est gentil → Elle est gentille
+✔ Fill in: Des filles _______ (gentil) → gentilles
+✔ Translate: A tall, smart boy → Un garçon grand et intelligent
