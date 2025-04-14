@@ -119,3 +119,59 @@ Assigns value to board state without looking ahead.
 - **Combinatorial Explosion:** Too many possible moves (e.g., Go has 10^170 states).
 - **Time Constraints:** Limited thinking time in real games.
 - **Uncertainty:** Incomplete knowledge of the opponent’s strategy.
+
+
+
+# Module IV: Logic and Knowledge Representation
+
+## 1. Knowledge Representation
+
+### Associative Networks:
+- **Nodes:** Concepts (e.g., Dog, Animal)
+- **Edges:** Relationships (e.g., is-a, has-property)
+
+### Frame Structures:
+- **Example:** Frame for 'Restaurant Visit' with slots like food, bill, waiter.
+
+### Conceptual Dependencies:
+- Captures meaning behind sentences.
+- **Example:** "John gave a book to Mary" involves actor (John), object (book), recipient (Mary).
+
+### Scripts:
+- **Example:** Script for 'Going to a movie' includes buying a ticket, watching the movie, etc.
+
+## 2. Propositional Logic
+
+### Syntax:
+- **Symbols:** P, Q, R
+- **Operators:** AND (∧), OR (∨), NOT (¬), IMPLIES (→)
+
+### Semantics:
+- Assign truth values to propositions.
+- **Example:** If P is true and Q is true, then P ∧ Q is true.
+
+## 3. First Order Predicate Logic (FOPL)
+
+### Syntax:
+- **Predicates:** Human(x), Loves(x, y)
+- **Quantifiers:** ∀ (for all), ∃ (exists)
+
+### Semantics:
+- Interpretation over a domain.
+- **Example:** ∀x Human(x) → Mortal(x)
+
+## 4. Logical Inference Techniques
+
+### Conversion to Clausal Form:
+- **Example:** (P ∨ Q) ∧ (¬P ∨ R)
+
+### Inference Rules:
+- **Modus Ponens:** If P → Q and P, then Q.
+
+### Unification:
+- Makes two predicates identical.
+- **Example:** Loves(John, x) and Loves(John, Mary) unifies x = Mary.
+
+### Resolution Principle:
+- Used for automated theorem proving.
+- **Example:** From (P ∨ Q) and (¬P ∨ R), infer (Q ∨ R).
