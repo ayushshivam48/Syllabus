@@ -87,3 +87,35 @@ AI uses search to find optimal or acceptable solutions in large problem spaces. 
   - **Constraints:** No repeated digits in rows, columns, blocks
 
 CSPs are solved using backtracking, forward checking, and heuristics.
+
+
+
+# Module III: Game Playing
+
+## 1. AI and Game Playing
+Games provide a structured way to test intelligent behavior. Games can be:
+- **Deterministic** or **stochastic**
+- **Perfect information** (e.g., Chess) or **imperfect information** (e.g., Poker)
+
+## 2. Plausible Move Generator
+Generates possible legal moves.  
+**Example:** In Chess, a move generator would provide all legal piece movements from the current position.
+
+## 3. Static Evaluation Function
+Assigns value to board state without looking ahead.  
+**Example:** In Chess, evaluating based on material (piece count) and position.
+
+## 4. Game Playing Strategies
+
+### Minimax Algorithm:
+- **Example:** Tic Tac Toe
+- AI chooses a move that minimizes the possible loss.
+
+### Alpha-Beta Pruning:
+- Prunes unneeded branches.
+- **Example:** Reduces time complexity in Chess.
+
+## 5. Problems in Game Playing
+- **Combinatorial Explosion:** Too many possible moves (e.g., Go has 10^170 states).
+- **Time Constraints:** Limited thinking time in real games.
+- **Uncertainty:** Incomplete knowledge of the opponent’s strategy.
