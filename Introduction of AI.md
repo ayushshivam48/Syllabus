@@ -40,3 +40,50 @@ AI has vast applications across industries:
 ### Types:
 - **Monotonic:** Used in logical deduction.
 - **Non-monotonic:** Used when new facts can change conclusions.
+
+
+# Module II: Heuristic Search Techniques
+
+## 1. AI and Search Process
+AI uses search to find optimal or acceptable solutions in large problem spaces. Search algorithms can be:
+- **Uninformed:** No additional information (e.g., BFS, DFS)
+- **Informed:** Uses heuristics (e.g., A*, Best First Search)
+
+## 2. Uninformed Search Techniques (Brute Force)
+
+### Depth-First Search (DFS):
+- **Example:** Navigating a file system directory.
+- May go deep without finding a solution.
+
+### Breadth-First Search (BFS):
+- **Example:** Finding the shortest path in a grid.
+- Guaranteed to find the shortest path but uses more memory.
+
+### Time and Space Complexities:
+- **DFS:** Time = O(b^m), Space = O(m)
+- **BFS:** Time = O(b^d), Space = O(b^d)
+
+## 3. Heuristic Search Techniques
+- **Heuristic:** For the 8-puzzle, the heuristic could be the number of misplaced tiles.
+  
+- **Hill Climbing:** Choose the move that appears best at the moment.  
+  **Example:** Finding max height in terrain navigation.
+
+- **Best First Search:** Uses a priority queue; chooses the path with the lowest cost estimate.
+
+- **A* Algorithm:** Combines path cost (g(n)) + heuristic (h(n)).  
+  **Example:** GPS navigation systems.
+
+- **Beam Search:** Keeps top 'k' best paths.  
+  **Example:** Speech recognition.
+
+- **AO* Search:** Used in goal trees where goals can be AND/OR nodes.  
+  **Example:** AI planning where a task requires multiple sub-tasks.
+
+## 4. Constraint Satisfaction Problems (CSP)
+- **Example:** Sudoku puzzle
+  - **Variables:** Cells
+  - **Domains:** Digits 1-9
+  - **Constraints:** No repeated digits in rows, columns, blocks
+
+CSPs are solved using backtracking, forward checking, and heuristics.
