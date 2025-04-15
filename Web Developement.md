@@ -6,7 +6,7 @@
 
 HTML was introduced by Tim Berners-Lee in 1991. HTML5, released in 2014, supports video, audio, and semantic elements for better web apps.
 
-###Structure of HTML
+### Structure of HTML
 
 <!DOCTYPE html>
 <html>
@@ -75,13 +75,13 @@ HTML was introduced by Tim Berners-Lee in 1991. HTML5, released in 2014, support
 
 <marquee>Scrolling text</marquee>
 
-##🔹 Overview of User Experience Design (UX)
+## 🔹 Overview of User Experience Design (UX)
 
 Focuses on improving satisfaction, usability, and interaction of the user with the product.
 
 Example: A clean and responsive layout improves UX.
 
-##🔹 Fundamentals of Design
+## 🔹 Fundamentals of Design
 
 Principles: Alignment, Contrast, Balance, Repetition, Proximity
 
