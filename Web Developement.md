@@ -94,3 +94,75 @@ WordPress: Open-source, flexible CMS
 Wix: No-code, drag-and-drop builder
 
 Example: WordPress is great for blogs and e-commerce; Wix is ideal for personal portfolios.
+
+
+# 📘 Module II: Tables, iFrames, and Forms
+
+## 🔹 Creating Tables
+
+<table border="1">
+  <tr><th>Name</th><th>Age</th></tr>
+  <tr><td>Alice</td><td>25</td></tr>
+</table>
+
+### Adding Border: border="1"
+
+### Column Headings: <th>
+
+### Spacing and Padding: Use CSS → cellspacing, cellpadding (older HTML), or:
+
+<style>
+  td { padding: 10px; }
+</style>
+
+### Caption
+
+<caption>Student Info</caption>
+
+### Table Width and Height
+
+<table width="500" height="200">
+
+### Row Headings
+
+<tr><th scope="row">Name</th><td>Alice</td></tr>
+
+### Aligning Cell Contents
+
+<td align="center">Centered</td>
+
+### Setting Column Width
+
+<td width="100">Fixed width</td>
+
+###Centering a Table
+
+<div style="text-align:center;">
+  <table>...</table>
+</div>
+
+### Inserting an Image in a Table Cell
+
+<td><img src="photo.jpg"></td>
+
+### Spanning Columns and Rows
+
+<td colspan="2">Spanning 2 columns</td>
+<td rowspan="2">Spanning 2 rows</td>
+
+### Background Colors
+
+<td style="background-color: yellow;">Colored Cell</td>
+
+
+## 🔹 Introduction to Forms
+
+<form action="submit.php" method="post">
+  <label>Name:</label>
+  <input type="text" name="username">
+  <input type="submit" value="Submit">
+</form>
+
+### Elements: input, textarea, select, checkbox, radio, submit
+
+
