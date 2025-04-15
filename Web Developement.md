@@ -135,7 +135,7 @@ Example: WordPress is great for blogs and e-commerce; Wix is ideal for personal 
 
 <td width="100">Fixed width</td>
 
-###Centering a Table
+### Centering a Table
 
 <div style="text-align:center;">
   <table>...</table>
