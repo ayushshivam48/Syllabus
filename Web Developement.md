@@ -166,3 +166,60 @@ Example: WordPress is great for blogs and e-commerce; Wix is ideal for personal 
 ### Elements: input, textarea, select, checkbox, radio, submit
 
 
+
+# 📘 Module III: CSS and CSS Frameworks
+
+## 🔹 Cascading Style Sheets (CSS)
+
+Used to style HTML elements (colors, layout, fonts).
+
+## 🔹 Ways to use CSS
+
+### Inline
+
+<p style="color: red;">Red Text</p>
+
+### Internal
+
+<style>
+  p { color: blue; }
+</style>
+
+### External
+
+<link rel="stylesheet" href="style.css">
+
+## 🔹 Selectors
+
+p { color: green; }       /* element selector */
+#main { font-size: 20px; } /* ID selector */
+.box { border: 1px solid; } /* class selector */
+
+## 🔹 DIV and SPAN Elements
+
+<div> = block-level container
+
+<span> = inline container
+
+## 🔹 Using Classes and IDs
+
+<div id="header">Welcome</div>
+<p class="highlight">Important</p>
+
+## 🔹 Pseudo-classes
+
+a:hover { color: red; }   /* link hover effect */
+
+## 🔹 CSS Framework Introduction
+
+### Why use?
+
+Faster, cleaner styling with prebuilt classes.
+
+Examples: Bootstrap, Tailwind CSS
+
+## 🔹 Types of CSS Frameworks
+
+Front-end: Bootstrap, Foundation
+
+Back-end: Laravel Mix, SASS-based tools
