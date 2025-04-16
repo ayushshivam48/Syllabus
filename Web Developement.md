@@ -277,3 +277,88 @@ jQuery – JS library for easier DOM manipulation
 JSON – Data format for APIs and AJAX
 
 { "name": "Alice", "age": 25 }
+
+
+
+# 📘 Module V: XML
+
+## 🔹 Introduction to XML
+
+XML = eXtensible Markup Language, used to store and transport data.
+
+## 🔹 Applications of XML
+
+Web services
+
+Data exchange
+
+Config files
+
+## 🔹 Features of XML
+
+Human-readable
+
+Self-descriptive
+
+Platform-independent
+
+## 🔹 Anatomy of XML Document
+
+<?xml version="1.0"?>
+<student>
+  <name>John</name>
+  <age>22</age>
+</student>
+
+## 🔹 XML Declaration
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+## 🔹 Element Tags, Nesting & Structure
+
+### Tags should be properly nested:
+
+<book>
+  <title>Learn XML</title>
+</book>
+
+## 🔹 Text Formatting in XML
+
+XML itself doesn’t format text but can store:
+
+<text>**Bold** or _italic_ text here</text>
+
+## 🔹 Markup Element and Attributes
+
+<user id="101">Alice</user>
+
+## 🔹 Document Type Definition (DTD)
+
+Defines rules for XML structure.
+
+### Internal DTD:
+
+<!DOCTYPE student [
+  <!ELEMENT student (name, age)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT age (#PCDATA)>
+]>
+
+## 🔹 Viewing XML
+
+In Browser (Just open XML file)
+
+With XML Data Source Object (For old IE)
+
+Using XSLT / CSS for styles
+
+## 🔹 Overview of YMAIL, Bootstrap, UX/UI Design
+YMAIL: XML-based format used by Yahoo Mail
+
+Bootstrap: CSS framework for responsive design
+
+### UX/UI:
+
+UX: User Experience (how it feels)
+
+UI: User Interface (how it looks)
