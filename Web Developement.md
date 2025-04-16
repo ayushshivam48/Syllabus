@@ -238,7 +238,7 @@ var name = "Alice";
 let age = 25;
 const pi = 3.14;
 
-##🔹 Dialog Boxes
+## 🔹 Dialog Boxes
 
 alert("Hello!");
 confirm("Are you sure?");
