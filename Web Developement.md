@@ -223,3 +223,57 @@ Examples: Bootstrap, Tailwind CSS
 Front-end: Bootstrap, Foundation
 
 Back-end: Laravel Mix, SASS-based tools
+
+
+
+# 📘 Module IV: JavaScript
+
+## 🔹 Introduction to JavaScript
+
+JavaScript adds interactivity to web pages (e.g., button clicks, alerts).
+
+## 🔹 Data Types & Variables
+
+var name = "Alice";
+let age = 25;
+const pi = 3.14;
+
+##🔹 Dialog Boxes
+
+alert("Hello!");
+confirm("Are you sure?");
+prompt("Enter your name:");
+
+## 🔹 Event Handling
+
+<button onclick="sayHello()">Click Me</button>
+<script>
+  function sayHello() {
+    alert("Hello!");
+  }
+</script>
+
+### Other Events:
+
+onclick, ondblclick, onfocus, onblur
+
+onmouseover, onmouseout, onmousemove
+
+onkeyup, onkeypress, onchange, onload
+
+## 🔹 Front-end Validations
+
+if(document.forms["myForm"]["email"].value == "") {
+  alert("Email is required");
+  return false;
+}
+
+## 🔹 Overview of AJAX, jQuery, JSON
+
+AJAX – Asynchronous page updates without refresh
+
+jQuery – JS library for easier DOM manipulation
+
+JSON – Data format for APIs and AJAX
+
+{ "name": "Alice", "age": 25 }
