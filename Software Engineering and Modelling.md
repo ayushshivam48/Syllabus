@@ -101,3 +101,41 @@ A visual representation of the logical structure of a system, often used in soft
 - **Performance**: Efficient operation.
 - **Reusability**: Components can be reused.
 - **User -friendliness**: Easy to use.
+
+
+# Module V: Software Testing
+
+## 1. Introduction to Software Testing
+Testing ensures the software works as expected and identifies bugs before release.
+
+- Verifies and validates that software meets requirements.
+
+## 2. Level of Testing
+- **Unit Testing**: Testing individual components or functions.
+- **Integration Testing**: Checking interactions between modules.
+- **System Testing**: Validating the complete integrated system.
+- **Acceptance Testing**: Done by clients to check if requirements are met.
+
+## 3. Characteristics of Software Testing
+- **Planned**: Executed as per a test plan.
+- **Repeatable**: Can be repeated with the same results.
+- **Measurable**: Test outcomes can be quantified.
+- **Unbiased**: Conducted independently of the development team.
+- **Goal-Oriented**: Aims to improve software quality.
+
+## 4. Black-Box Testing
+Tests the functionality of the software without looking at the internal code.
+
+- Focus on input-output behavior.
+- **Techniques**: Equivalence Partitioning, Boundary Value Analysis.
+
+## 5. White-Box Testing
+Testing with full knowledge of internal structures or workings of a program.
+
+- Focus on logic, paths, and conditions in the code.
+- **Techniques**: Statement Coverage, Branch Coverage, Path Coverage.
+
+## 6. Alpha, Beta, and Gamma Testing
+- **Alpha Testing**: Conducted by internal teams. Early stage testing with debugging.
+- **Beta Testing**: Conducted by selected external users. Provides real-world feedback.
+- **Gamma Testing**: Final testing before official release. Rarely used; only for final product validation.
