@@ -142,7 +142,9 @@ To Cash A/c ₹10,000
 
 **Posting**: The process of transferring journal entries to the ledger.
 
-**Example**: Cash A/c
+**Example**:
+
+Cash A/c
 
 Date   | Particulars | J.F. | Debit (₹) | Credit (₹)
 
@@ -156,6 +158,7 @@ Date   | Particulars | J.F. | Debit (₹) | Credit (₹)
 **Purpose**: To ensure total debits = total credits. Used to detect errors and prepare final accounts.
 
 **Format**:
+
 Account Name | Debit (₹) | Credit (₹)
 
   Cash A/c   |   90,000  |    —
@@ -166,3 +169,162 @@ Account Name | Debit (₹) | Credit (₹)
  
    Total     |  1,00,000 | 1,00,000
 
+# Module III: Subsidiary Books – Detailed Notes
+
+## 1. Introduction and Need for Subsidiary Books
+
+**Definition**:  
+Subsidiary Books are special-purpose journals used to record specific types of transactions.
+
+**Need**:
+- To reduce burden on the journal
+- To maintain systematic records
+- To allow division of work among accounting staff
+- To increase efficiency and minimize errors
+
+**Main Features**:
+- Each book records only one category of transactions
+- Entries are made directly from vouchers/invoices
+- Periodically posted to ledger accounts
+
+---
+
+## 2. Types of Subsidiary Books
+
+| Subsidiary Book       | Records                              |
+|-----------------------|--------------------------------------|
+| Purchase Book         | Credit purchases of goods only       |
+| Sales Book            | Credit sales of goods only           |
+| Purchase Return Book  | Goods returned to suppliers          |
+| Sales Return Book     | Goods returned by customers          |
+| Cash Book             | All cash and bank transactions       |
+| Petty Cash Book       | Small daily expenses                 |
+
+---
+
+## 3. Purchase Book
+
+**Definition**:  
+Records credit purchases of goods meant for resale.
+
+**Not included**: Cash purchases or purchases of assets.
+
+**Format**:
+
+| Date | Invoice No. | Supplier Name | Details | Amount (₹) |
+|------|-------------|---------------|---------|------------|
+
+---
+
+## 4. Sales Book
+
+**Definition**:  
+Records credit sales of goods to customers.
+
+**Not included**: Cash sales or sale of assets.
+
+**Format**:
+
+| Date | Invoice No. | Customer Name | Details | Amount (₹) |
+|------|-------------|---------------|---------|------------|
+
+---
+
+## 5. Purchase Return Book
+
+**Definition**:  
+Records goods returned to suppliers due to defects or excess quantity.
+
+**Source Document**: Debit Note.
+
+**Format**:
+
+| Date | Debit Note No. | Supplier | Reason | Amount (₹) |
+|------|----------------|----------|--------|------------|
+
+---
+
+## 6. Sales Return Book
+
+**Definition**:  
+Records goods returned by customers.
+
+**Source Document**: Credit Note.
+
+**Format**:
+
+| Date | Credit Note No. | Customer | Reason | Amount (₹) |
+|------|-----------------|----------|--------|------------|
+
+---
+
+## 7. Cash Book
+
+**Definition**:  
+A book that records all cash and bank transactions.
+
+Acts as both journal and ledger.
+
+### Types of Cash Books
+
+#### (i) Single Column Cash Book
+- Records only cash transactions
+- Format:
+
+  Cash Book
+  
+Dr. Side (Receipts)      | Cr. Side (Payments)
+
+------------------------|------------------------
+
+Date | Particulars | Amt | Date | Particulars | Amt
+
+
+#### (ii) Double Column Cash Book
+- Records Cash and Bank transactions
+- Additional Bank Column on both sides
+
+#### (iii) Triple Column Cash Book
+- Records Cash, Bank, and Discount
+- Discount:
+- Discount Allowed: on debit side
+- Discount Received: on credit side
+- Format includes:
+- Date, Particulars, Discount, Cash, Bank (both Dr. and Cr. sides)
+
+### Balancing the Cash Book
+- **Total Debit > Credit**: Debit Balance (cash in hand)
+- **Total Credit > Debit**: For bank column → Bank Overdraft
+
+---
+
+## 8. Petty Cash Book
+
+**Definition**:  
+Used for recording small, repetitive expenses like postage, stationery, tea, etc.
+
+**Maintained by**: Petty cashier
+
+**System used**: Imprest System  
+(A fixed amount is given to the petty cashier at the start of a period)
+
+**Format**:
+
+| Date | Particulars | Voucher No. | Head (e.g., Postage) | Amount |
+|------|-------------|-------------|----------------------|--------|
+
+---
+
+## Key Definitions Recap
+
+| Term                 | Definition                                                                 |
+|----------------------|---------------------------------------------------------------------------|
+| Subsidiary Books     | Books used to record specific transactions like purchases, sales, etc.    |
+| Purchase Book        | Credit purchases of goods                                                 |
+| Sales Book           | Credit sales of goods                                                     |
+| Return Inward Book   | Sales return book (goods returned by customers)                           |
+| Return Outward Book  | Purchase return book (goods returned to suppliers)                        |
+| Cash Book            | Records cash and bank transactions                                        |
+| Petty Cash Book      | Records small routine expenses                                            |
+| Debit Note           | Issued when goods are returned to supplier                                |
+| Credit Note          | Issued when goods are returned by customer                                |
