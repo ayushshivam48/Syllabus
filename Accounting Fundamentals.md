@@ -145,7 +145,9 @@ To Cash A/c ₹10,000
 **Example**: Cash A/c
 
 Date   | Particulars | J.F. | Debit (₹) | Credit (₹)
+
 01-Apr | Capital A/c |  001 | 1,00,000  |    —
+
 05-Apr | Salary A/c  |  002 |     —     | 10,000
 
 ## 7. Trial Balance
@@ -155,8 +157,12 @@ Date   | Particulars | J.F. | Debit (₹) | Credit (₹)
 
 **Format**:
 Account Name | Debit (₹) | Credit (₹)
+
   Cash A/c   |   90,000  |    —
+  
  Capital A/c |     —     | 1,00,000
+ 
  Salary A/c  |   10,000  |    —
+ 
    Total     |  1,00,000 | 1,00,000
 
