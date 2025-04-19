@@ -475,6 +475,7 @@ Issued as secondary security for loans.
 
 **Method 2: Journal Entry**  
 Debenture Suspense A/c Dr. X
+
 To Debentures A/c X
 
 
@@ -486,3 +487,88 @@ To Debentures A/c X
 | Share Capital | Total capital from shares |
 | Convertible Debenture | Debt convertible to equity |
 | Collateral Security | Secondary loan guarantee |
+
+
+# Module VI: Information Technology Applications in Accounting
+
+## 1. Introduction to IT in Accounting
+**Definition**:  
+Use of computers, software, and networks to record, process, and analyze financial data.
+
+### Key Features
+- Speed and accuracy
+- Real-time data access
+- Better storage and retrieval
+- Reduced manual errors
+- Enhanced data security
+
+---
+
+## 2. Scope of IT in Accounting
+Applications include:
+- Bookkeeping
+- Financial statement preparation
+- Inventory management
+- Payroll processing
+- Budgeting and forecasting
+- Taxation compliance
+
+---
+
+## 3. Need for Accounting Software
+**Benefits**:
+- Automation of complex calculations
+- Improved accuracy
+- Standardized formats
+- Time and resource savings
+- Regulatory compliance (GST, TDS)
+- Quick report generation
+
+### Popular Software
+- Tally (India)
+- QuickBooks
+- Zoho Books
+- SAP
+
+---
+
+## 4. Tally Accounting Software
+**Overview**:  
+Leading accounting software for Indian businesses.
+
+### Key Features
+- Core accounting functions
+- Inventory management
+- GST/TDS compliance
+- Financial reporting
+- Bank reconciliation
+- Data backup
+
+### Financial Statements Generated
+1. Trial Balance
+2. Trading Account
+3. Profit & Loss Account
+4. Balance Sheet
+5. Cash Flow Statements
+
+---
+
+## 5. Managerial Applications
+Using Tally data for:
+- Financial decision making
+- Profitability analysis
+- Cost control
+- Cash flow tracking
+- Tax compliance
+- Budget planning
+
+---
+
+## Key Terms
+| Term | Definition |
+|------|-----------|
+| Accounting Software | Program for recording transactions |
+| Ledger | Record of all business accounts |
+| Trial Balance | Verification of ledger accuracy |
+| GST Compliance | Adherence to tax regulations |
+| Bank Reconciliation | Matching company and bank records |
