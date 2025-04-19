@@ -330,7 +330,7 @@ Used for recording small, repetitive expenses like postage, stationery, tea, etc
 | Credit Note          | Issued when goods are returned by customer                                |
 
 
-# Financial Statements Guide
+# Module IV: Financial Statements Guide
 
 ## 1. Introduction to Financial Statements  
 **Definition**:  
@@ -410,3 +410,79 @@ Formal records of a business's financial activities and position, showing profit
 - **Assets**: Resources owned  
 - **Liabilities**: Amounts owed  
 - **Capital**: Owner's investment  
+
+
+# Module V: Company Accounts
+
+## 1. Introduction to Company Accounts
+**Definition**:  
+Accounting records maintained by companies as per legal regulations (Companies Act, 2013 in India).
+
+---
+
+## 2. Introduction to Shares
+**Definition**:  
+A unit of ownership representing claim on company's assets and earnings.
+
+### Characteristics of Shares
+- Ownership right
+- Transferable
+- Entitles to dividends
+- Voting rights (equity shares)
+- Limited liability
+
+### Types of Shares
+| Type | Features |
+|------|----------|
+| **Equity Shares** | Voting rights, variable dividends, high risk/return |
+| **Preference Shares** | Fixed dividends, priority in repayment, usually no voting |
+
+---
+
+## 3. Introduction to Debentures
+**Definition**:  
+Long-term debt instrument with fixed interest rate.
+
+### Classification
+| Type | Description |
+|------|-------------|
+| Secured | Backed by assets |
+| Unsecured | No collateral |
+| Convertible | Can become shares |
+| Non-Convertible | Cannot become shares |
+| Redeemable | Fixed maturity |
+| Perpetual | No maturity |
+
+---
+
+## 4. Shares vs Debentures
+| Basis | Shares | Debentures |
+|-------|--------|------------|
+| Nature | Ownership | Debt |
+| Return | Dividend | Interest |
+| Voting | Yes (equity) | No |
+| Risk | Higher | Lower |
+
+---
+
+## 5. Debentures as Collateral Security
+**Definition**:  
+Issued as secondary security for loans.
+
+### Accounting Treatment
+**Method 1: Note Disclosure**  
+"Loan secured by debentures (₹X) as collateral"
+
+**Method 2: Journal Entry**  
+Debenture Suspense A/c Dr. X
+To Debentures A/c X
+
+
+---
+
+## Key Terms
+| Term | Meaning |
+|------|---------|
+| Share Capital | Total capital from shares |
+| Convertible Debenture | Debt convertible to equity |
+| Collateral Security | Secondary loan guarantee |
