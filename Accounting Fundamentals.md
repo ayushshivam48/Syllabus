@@ -328,3 +328,85 @@ Used for recording small, repetitive expenses like postage, stationery, tea, etc
 | Petty Cash Book      | Records small routine expenses                                            |
 | Debit Note           | Issued when goods are returned to supplier                                |
 | Credit Note          | Issued when goods are returned by customer                                |
+
+
+# Financial Statements Guide
+
+## 1. Introduction to Financial Statements  
+**Definition**:  
+Formal records of a business's financial activities and position, showing profitability, financial health, and cash flows.
+
+---
+
+## 2. Components  
+1. Trading Account  
+2. Profit and Loss Account  
+3. Balance Sheet  
+4. Adjustments  
+
+---
+
+## 3. Trading Account  
+**Purpose**: Calculates Gross Profit/Loss from core business operations.
+
+### Format  
+| Debit Side           | Amount (₹) | Credit Side         | Amount (₹) |
+|----------------------|------------|---------------------|------------|
+| Opening Stock        | XXX        | Sales               | XXX        |
+| Purchases            | XXX        | Less: Sales Returns | (XXX)      |
+| Less: Purchase Returns | (XXX)     | Closing Stock       | XXX        |
+| Direct Expenses      | XXX        |                     |            |
+| Gross Profit c/d     | XXX        |                     |            |
+| **Total**           | **XXX**    | **Total**           | **XXX**    |
+
+---
+
+## 4. Profit & Loss Account  
+**Purpose**: Shows Net Profit/Loss after all incomes/expenses.
+
+### Format  
+| Debit Side               | Amount (₹) | Credit Side          | Amount (₹) |
+|--------------------------|------------|----------------------|------------|
+| Office Expenses          | XXX        | Gross Profit b/d     | XXX        |
+| Selling Expenses         | XXX        | Other Incomes        | XXX        |
+| Depreciation             | XXX        |                      |            |
+| Net Profit to Capital A/c| XXX        |                      |            |
+| **Total**               | **XXX**    | **Total**            | **XXX**    |
+
+---
+
+## 5. Balance Sheet (Revised Schedule VI)  
+**Purpose**: Snapshot of assets, liabilities and equity.
+
+### Vertical Format  
+**Balance Sheet as on [Date]**  
+
+**A. Equity & Liabilities**  
+1. Shareholders' Funds  
+   - Share Capital  
+   - Reserves & Surplus  
+2. Non-Current Liabilities  
+3. Current Liabilities  
+
+**B. Assets**  
+1. Non-Current Assets  
+2. Current Assets  
+
+---
+
+## 6. Key Adjustments  
+| Adjustment                | Treatment                          |
+|---------------------------|------------------------------------|
+| Closing Stock             | Credit Trading A/c + Current Asset |
+| Outstanding Expenses      | Add to expense + Current Liability |
+| Prepaid Expenses          | Deduct expense + Current Asset    |
+| Depreciation              | P&L Expense + Reduce Asset Value  |
+
+---
+
+## Key Terms  
+- **Gross Profit**: Sales - COGS  
+- **Net Profit**: GP - Expenses + Other Income  
+- **Assets**: Resources owned  
+- **Liabilities**: Amounts owed  
+- **Capital**: Owner's investment  
