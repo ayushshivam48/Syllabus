@@ -492,3 +492,172 @@ Testing with full knowledge of internal structures or workings of a program.
 - **Alpha Testing**: Conducted by internal teams. Early stage testing with debugging.
 - **Beta Testing**: Conducted by selected external users. Provides real-world feedback.
 - **Gamma Testing**: Final testing before official release. Rarely used; only for final product validation.
+
+
+# Module VI: Software Project Management and Quality Assurance
+
+## 1. Software Project Planning
+
+### Definition:
+The process of setting goals, defining scope, estimating resources (time, cost, manpower), and scheduling tasks for successful software project execution.
+
+### Key Components:
+- Project Scope
+- Work Breakdown Structure (WBS)
+- Effort and Time Estimation
+- Resource Allocation
+- Risk Management
+- Scheduling (e.g., Gantt Charts, PERT/CPM)
+- Milestone Definition
+
+## 2. Software Metrics
+
+### Definition:
+Quantitative measures used to assess various aspects of software development and quality.
+
+### Types:
+- Process Metrics - Measure the process (e.g., defect arrival rate)
+- Product Metrics - Measure product attributes (e.g., LOC, Cyclomatic Complexity)
+- Project Metrics - Measure project performance (e.g., cost performance index)
+
+## 3. Cost and Size Metrics - FP & COCOMO
+
+### a) Function Point (FP):
+A size estimation technique based on the number of functions (inputs, outputs, files, interfaces, inquiries).
+
+**Example Calculation:**
+1. Count number of inputs, outputs, files, etc.
+2. Assign complexity weight
+3. Compute Unadjusted FP
+4. Apply adjustment factor
+
+### b) COCOMO (Constructive Cost Model):
+A cost estimation model developed by Barry Boehm.
+
+#### Types:
+- Basic COCOMO - Uses simple effort equation.
+- Intermediate COCOMO - Adds cost drivers (e.g., experience, complexity).
+- Detailed COCOMO - Includes sub-models for each development phase.
+
+**Basic Formula:**
+Effort = a · (KLOC)^b
+Where:
+- KLOC = Thousands of Lines of Code
+- a and b = constants depending on the project type
+
+## 4. Configuration Management
+
+### Definition:
+The discipline of managing changes in software products during the development life cycle.
+
+### Activities:
+- Version Control
+- Change Control
+- Build Management
+- Release Management
+
+### Tools:
+- Git, SVN, CVS, Mercurial
+
+## 5. Software Maintenance and Types of Maintenance
+
+### Definition:
+Activities required to provide corrective, adaptive, perfective, and preventive changes after the software is delivered.
+
+### Types:
+1. Corrective Maintenance - Fixing bugs
+2. Adaptive Maintenance - Adapting software to changes in environment (e.g., OS upgrade)
+3. Perfective Maintenance - Improving performance or maintainability
+4. Preventive Maintenance - Preventing future problems
+
+## 6. Constraints of Software Product
+
+### Common Constraints:
+- Budget
+- Time
+- Technology
+- Human Resources
+- Quality Requirements
+- Security and Legal Constraints
+
+### Implication:
+Constraints shape the project scope, design, and execution strategy.
+
+## 7. Quality Assessment
+
+### Definition:
+Evaluating a product's quality to ensure it meets specified standards and customer expectations.
+
+### Techniques:
+- Reviews and Inspections
+- Testing (Unit, Integration, System)
+- Audits
+- Performance Monitoring
+
+## 8. Quality and Productivity Relationship
+
+### Observation:
+Higher quality leads to fewer reworks, improving productivity.
+
+### Relationship:
+- Poor quality → more defects → more rework → lower productivity
+- High quality → fewer issues → faster delivery → higher productivity
+
+## 9. Software Quality Management (SQM) and Processes Related to Software Quality
+
+### Definition:
+A set of activities to ensure software products meet quality standards.
+
+### SQM Activities:
+- Quality Planning - Define quality attributes, standards, and processes.
+- Quality Assurance - Monitor adherence to processes.
+- Quality Control - Detect defects via testing and inspections.
+
+### Related Processes:
+- Defect Prevention
+- Process Improvement
+- Root Cause Analysis
+
+## 10. Quality Management System (QMS) Structure and Pillars of QMS
+
+### QMS Structure:
+- Organizational Structure
+- Defined Processes
+- Roles and Responsibilities
+- Quality Policies and Objectives
+- Measurement and Improvement Mechanisms
+
+### Pillars of QMS:
+1. Customer Focus
+2. Leadership
+3. Engagement of People
+4. Process Approach
+5. Continuous Improvement
+6. Evidence-Based Decision Making
+7. Relationship Management
+
+## 11. Important Aspects of Quality Management
+
+1. Customer Satisfaction
+2. Defect Density
+3. Process Maturity
+4. Compliance with Standards (ISO, CMMI)
+5. Team Skill and Training
+6. Tools and Automation
+7. Monitoring and Auditing
+
+## Summary Table
+
+| Topic | Key Points |
+|-------|------------|
+| Software Project Planning | Estimation, scheduling, risk, resources |
+| Software Metrics | LOC, FP, Cyclomatic Complexity, defect rate |
+| FP & COCOMO | Size and cost estimation techniques |
+| Configuration Management | Version control, change management |
+| Maintenance Types | Corrective, adaptive, perfective, preventive |
+| Product Constraints | Time, cost, resources, compliance |
+| Quality Assessment | Audits, testing, inspections |
+| Quality-Productivity Link | Higher quality = higher productivity |
+| SQM | Planning, assurance, control |
+| QMS Structure | Framework for managing quality |
+| QMS Pillars | Customer focus, leadership, improvement, etc. |
