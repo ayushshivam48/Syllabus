@@ -399,3 +399,116 @@ graph TD
   - Business strategy games
   - Digital escape rooms
   - Role-playing scenarios
+
+
+# Module VI: Building Resilience & Science of Stress
+
+## 1. Resilience
+**Definition**: The ability to bounce back from adversity, trauma, or stress.  
+It involves adapting well in the face of challenges.
+
+## 2. Importance of Resilience
+- Enhances mental health and emotional strength
+- Improves problem-solving under pressure
+- Maintains focus and productivity during challenges
+- Reduces risk of anxiety, depression, and burnout
+
+## 3. Factors of Resilience
+- **Positive relationships** (support network)
+- **Self-efficacy** and confidence
+- **Emotional regulation** skills
+- **Optimistic outlook**
+- **Sense of purpose**
+- **Cognitive flexibility**
+
+## 4. Building Resilience
+- Cultivate supportive relationships
+- Develop adaptability to change
+- Maintain hopeful perspective
+- Take proactive problem-solving approach
+- Practice consistent self-care:
+  - Physical exercise
+  - Mindfulness practices
+  - Quality sleep
+- Learn from past experiences
+
+## 5. Happiness
+**Definition**: State of well-being and contentment.  
+**Benefits**:
+- Strengthens immune system
+- Enhances cognitive performance
+- Improves social relationships
+- Promotes overall life satisfaction
+
+## 6. Stress: Meaning, Nature, and Types
+**Definition**: Physiological/psychological response to challenges.  
+**Nature**: Exists on spectrum (positive eustress to negative distress).  
+**Types**:
+1. **Acute** - Short-term response
+2. **Chronic** - Prolonged stress
+3. **Episodic** - Recurring acute stress
+
+## 7. Symptoms of Stress
+**Physical**:
+- Headaches, muscle tension
+- Fatigue, sleep disturbances
+
+**Emotional**:
+- Anxiety, irritability
+- Mood swings
+
+**Behavioral**:
+- Changes in eating/sleeping
+- Social withdrawal
+
+## 8. Stress Response Systems
+### Fight-or-Flight Response
+- Immediate survival mechanism
+
+### General Adaptation Syndrome (GAS)
+**Stages**:
+1. **Alarm** - Initial shock and counter-shock
+2. **Resistance** - Adaptation phase
+3. **Exhaustion** - Resource depletion
+
+## 9. Physiology of Stress
+- HPA axis activation
+- Cortisol/adrenaline release
+- Cardiovascular activation
+- Long-term health consequences
+
+## 10. Stress Models
+| Model | Key Concept |
+|-------|-------------|
+| Transactional (Lazarus) | Perception determines stress |
+| Diathesis-Stress | Genetic-environment interaction |
+| Job Demand-Control | Workplace stress dynamics |
+
+## 11. Stress Management Strategies
+**Cognitive**:
+- Cognitive restructuring
+- Problem-solving training
+
+**Behavioral**:
+- Regular exercise
+- Time management
+
+**Emotional**:
+- Expressive writing
+- Social sharing
+
+**Mindfulness**:
+- Meditation practices
+- Breathing exercises
+
+## 12. Social Support Systems
+**Protective Functions**:
+- Emotional comfort
+- Practical assistance
+- Motivational support
+- Stress buffering effect
+
+**Impact**:
+- Enhances resilience
+- Promotes recovery
+- Improves coping capacity
