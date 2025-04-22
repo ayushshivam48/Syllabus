@@ -246,3 +246,51 @@ graph TD
 5. **Case Studies**: Real-world examples for better relatability
 6. **Bias Mitigation**: Added countermeasure column for cognitive errors
 
+
+# Module IV: Behavioral Pattern of Group
+
+## 1. Group Formation
+**Definition**: A group is a collection of two or more individuals who interact and are interdependent.
+
+**Stages of Group Development (Tuckman's Model)**:
+- **Forming**: Orientation and acquaintance
+- **Storming**: Conflict and competition
+- **Norming**: Establishment of norms and cohesion
+- **Performing**: Focus on goal achievement
+- **Adjourning**: Disbandment after task completion
+
+## 2. External Conditions Affecting Group Functioning
+- **Authority**: Influence of leadership style and hierarchy
+- **Structure**: Composition (roles, diversity, hierarchy)
+- **Organizational Resources**: Budget, time, tools, support systems
+- **Organizational Policies**: Rules, procedures, rewards systems, culture
+
+## 3. Internal Group Processes
+- **Roles**: Expected behavior from a person in a given position
+  - *Task roles* (initiator, information seeker) vs *Maintenance roles* (encourager, harmonizer)
+- **Norms**: Shared expectations about behavior
+- **Conformity**: Tendency to align with group norms to gain acceptance
+- **Status**: Social ranking or position within the group
+- **Cohesiveness**: The degree of attraction and desire to remain in the group
+- **Size**: Impacts participation, diversity of ideas, and coordination
+- **Intergroup Conflict**: Conflicts between different groups due to goals, resources, or values
+
+## 4. Key Group Concepts
+- **Group Cohesiveness**: High cohesiveness leads to satisfaction, performance, and unity. Influenced by similarity, interaction, success, and external threats.
+- **Group Conflict**:
+  - *Task conflict*: Related to goals and content
+  - *Relationship conflict*: Based on personal clashes
+  - *Process conflict*: About how the task is done
+- **Social Loafing**: Tendency to put in less effort in a group than when working alone
+- **Groupthink**: Pressure to conform leads to poor decision-making by suppressing dissenting opinions
+- **Group Shift**: Tendency for group decisions to be more extreme than individual decisions
+- **Group Polarization**: Intensification of group members' preexisting attitudes during group discussions
+
+## 5. Adjustment in Groups & Negotiation in Groups
+- **Adjustment in Groups**:
+  - Members adapt by aligning with group norms, roles, and expectations
+  - Important for harmony and performance
+- **Negotiation in Groups**:
+  - *Integrative negotiation*: Win-win solution with collaboration
+  - *Distributive negotiation*: Win-lose approach with competition
+  - Involves persuasion, compromise, and conflict resolution skills
