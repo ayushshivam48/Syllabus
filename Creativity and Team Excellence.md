@@ -294,3 +294,108 @@ graph TD
   - *Integrative negotiation*: Win-win solution with collaboration
   - *Distributive negotiation*: Win-lose approach with competition
   - Involves persuasion, compromise, and conflict resolution skills
+
+
+# Module V: Team Functioning
+
+## 1. Meaning and Nature of Teams
+**Team**: A small number of people with complementary skills, committed to a common purpose, performance goals, and mutual accountability.
+
+**Nature**:
+- Interdependent roles
+- Shared leadership
+- Synergy through collaboration
+
+## 2. Difference Between Group and Team
+
+| Aspect              | Group                          | Team                            |
+|---------------------|--------------------------------|---------------------------------|
+| Purpose             | Share information              | Collective performance          |
+| Synergy             | Neutral (sometimes negative)   | Positive (synergistic)          |
+| Accountability      | Individual                     | Mutual and individual           |
+| Skills              | Random and varied              | Complementary                   |
+
+## 3. External and Internal Factors Affecting Teams
+**External**:
+- Organizational culture
+- Structure and support systems
+- Available technology
+- External pressure
+
+**Internal**:
+- Communication patterns
+- Leadership style
+- Trust levels
+- Team role clarity
+- Conflict resolution mechanisms
+
+## 4. Belbin's Six Team Roles
+*(Selected from the original 9 roles)*
+
+1. **Plant** – Creative problem-solver
+2. **Coordinator** – Goal clarifier and decision-facilitator  
+3. **Shaper** – Performance challenger  
+4. **Implementer** – Action-oriented executor  
+5. **Team Worker** – Conflict reducer and supporter  
+6. **Completer-Finisher** – Detail-oriented deadline keeper  
+
+## 5. Building Effective Teams
+- Establish clear goals
+- Define roles and responsibilities
+- Foster open communication
+- Develop strong leadership
+- Implement constructive feedback
+- Cultivate mutual trust and respect
+
+## 6. Consensus Building
+- Cooperative decision-making process
+- Encourages:
+  - Active participation
+  - Empathetic listening
+  - Shared ownership
+- Prevents:
+  - Dominance by few
+  - Marginalization of members
+
+## 7. Mobilizing and Motivating Teams
+- Set inspiring SMART goals
+- Delegate meaningful responsibilities
+- Implement recognition systems
+- Develop shared vision
+- Celebrate team achievements
+
+## 8. Synchronization in Team Efforts
+**Methods**:
+- Task alignment strategies
+- Coordination protocols
+- Tools:
+  - Gantt charts
+  - Shared digital calendars
+  - Daily stand-up meetings
+**Benefits**:
+- Reduces task duplication
+- Minimizes workflow delays
+- Clarifies dependencies
+
+## 9. Trust in Team Building
+**Why Essential**:
+- Enables risk-taking
+- Facilitates open communication
+- Supports conflict resolution
+
+**How to Build**:
+- Demonstrate consistency
+- Practice transparency
+- Maintain accountability
+- Show competence
+
+## 10. Experiential Learning Through Team Games
+**Purpose**: Develop practical team competencies
+
+**Activity Types**:
+- Problem-solving simulations
+- Outdoor leadership challenges
+- Virtual collaborative exercises:
+  - Business strategy games
+  - Digital escape rooms
+  - Role-playing scenarios
