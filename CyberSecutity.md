@@ -912,3 +912,234 @@ Sender --> [Security Transformation] --> Communication Channel --> [Security Tra
 | Kerberos              | Secure ticket-based network authentication |
 
 ---
+
+# 📘 Module V: Security Risk Management
+
+---
+
+## 🔍 1. Introduction to Security Risk Management
+
+### What is Security Risk Management?
+
+It is the process of **identifying, assessing, and mitigating risks** to an organization's information and IT assets.
+
+### Steps:
+
+1. **Risk Identification** – Detect possible threats and vulnerabilities.
+2. **Risk Assessment** – Measure the impact and likelihood.
+3. **Risk Mitigation** – Apply controls to reduce the risk.
+4. **Monitoring & Review** – Regularly check and update.
+
+---
+
+## ⚖️ 2. Risk Assessment
+
+* **Qualitative Risk Assessment**: Uses descriptions (High, Medium, Low)
+* **Quantitative Risk Assessment**: Uses numerical values (\$, %)
+* Factors considered:
+
+  * Threats (e.g., malware)
+  * Vulnerabilities (e.g., weak passwords)
+  * Assets (data, devices, networks)
+  * Impact (financial loss, reputational damage)
+
+---
+
+## ✅ 3. Security Assurance Approaches
+
+### 🔐 OCTAVE (Operationally Critical Threat, Asset, and Vulnerability Evaluation):
+
+* Self-directed risk assessment framework
+* Focus on organizational risks
+* 3 Phases:
+
+  1. Build Asset-Based Threat Profiles
+  2. Identify Infrastructure Vulnerabilities
+  3. Develop Security Strategy
+
+### 🛡️ COBIT (Control Objectives for Information and Related Technologies):
+
+* Framework for IT governance and management
+* Helps align IT with business goals
+* Emphasizes risk management, performance measurement
+
+---
+
+## 🌐 4. Security Management of IT Systems
+
+### 🔒 Network Security Management:
+
+* Protects data during transmission
+* Uses firewalls, IDS, encryption, etc.
+
+### 🔥 Firewalls:
+
+* Control incoming/outgoing traffic based on rules
+* Types: Packet Filtering, Proxy, Stateful Inspection
+
+### 🛑 IDS (Intrusion Detection System):
+
+* Monitors network traffic for suspicious activity
+* Alerts administrator but does not block
+
+### 🔐 IPS (Intrusion Prevention System):
+
+* Detects and actively blocks threats in real-time
+
+---
+
+## 🌐 5. Web and Wireless Security Management
+
+### Web Security:
+
+* SSL/TLS for secure communication
+* Input validation to prevent XSS/SQL injection
+* Web application firewalls (WAFs)
+
+### Wireless Security:
+
+* Encryption protocols: WEP (weak), WPA, WPA2, WPA3
+* MAC address filtering
+* Hiding SSIDs (not fully secure)
+
+---
+
+## 🧱 6. Security Models and Access Control Models
+
+### Security Models:
+
+* Frameworks for implementing and enforcing security policies
+
+### Access Control Models:
+
+#### 🔑 Discretionary Access Control (DAC):
+
+* Owner decides access rights (e.g., Windows file permissions)
+
+#### 🛡️ Mandatory Access Control (MAC):
+
+* Access based on security labels (used in government systems)
+
+#### 👥 Role-Based Access Control (RBAC):
+
+* Access granted based on user's role in organization
+
+#### 🧮 Lattice-Based Models:
+
+* Uses security levels and clearances (used in military systems)
+
+---
+
+## 📜 7. Computer Security Log Management
+
+* Collecting and analyzing logs (system, network, applications)
+* Used for:
+
+  * Detecting incidents
+  * Compliance
+  * Forensics
+* Tools: SIEM (Security Information and Event Management)
+
+---
+
+## 🦠 8. Malware Handling and Vulnerability Management
+
+### Malware Handling:
+
+* Detection: Anti-virus, IDS
+* Containment: Quarantine
+* Removal: Clean-up tools
+* Recovery: Restore backups
+
+### Vulnerability Management:
+
+1. Identify (scanning tools)
+2. Evaluate (CVSS score)
+3. Remediate (patching)
+4. Verify (rescan)
+
+---
+
+## 📏 9. Specifying and Enforcing Security Policies
+
+### Security Policy:
+
+* A formal document stating how an organization protects information
+
+### Types:
+
+* Acceptable Use Policy
+* Password Policy
+* Data Classification Policy
+
+### Enforcement:
+
+* Employee training
+* Monitoring tools
+* Disciplinary actions
+
+---
+
+## 🧾 10. Information Security Audit
+
+### What is it?
+
+* An **independent review** to evaluate security controls
+
+### Principles:
+
+* Integrity
+* Objectivity
+* Confidentiality
+* Professionalism
+
+### Steps:
+
+1. Plan Audit
+2. Collect Data
+3. Evaluate Controls
+4. Report Findings
+
+---
+
+## 📜 11. Security Standards and Compliance
+
+### 🧩 ISO 17799:
+
+* Guidelines for information security management
+* Covers 11 security domains
+
+### 🧰 ISO/IEC 27001:
+
+* Formal specification for an **Information Security Management System (ISMS)**
+
+### 💳 PCI DSS (Payment Card Industry Data Security Standard):
+
+* Mandatory for companies handling card payments
+* Controls over cardholder data
+
+### ⚖️ Legal & Ethical Issues:
+
+* Protect user privacy
+* Ensure data integrity
+* Follow data protection regulations (e.g., GDPR, IT Act)
+
+---
+
+## ✅ Summary Table
+
+| Topic            | Description                           |
+| ---------------- | ------------------------------------- |
+| Risk Assessment  | Identify and evaluate security risks  |
+| OCTAVE           | Asset-based self-evaluation framework |
+| COBIT            | Governance framework for IT           |
+| IDS              | Detects suspicious activity           |
+| IPS              | Detects and blocks threats            |
+| RBAC             | Access based on roles                 |
+| ISO 27001        | ISMS framework                        |
+| PCI DSS          | Payment data protection               |
+| Log Management   | Tracks and audits activities          |
+| Malware Handling | Detect, quarantine, remove            |
+
+---
+
