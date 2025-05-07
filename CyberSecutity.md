@@ -684,3 +684,231 @@ Sender --> [Security Transformation] --> Communication Channel --> [Security Tra
 
 ---
 
+# 📘 Module IV: Cryptography
+
+---
+
+## 🔐 1. Introduction to Cryptography
+
+### 📖 Definition:
+
+* Cryptography is the science of securing information by transforming it into an unreadable format using algorithms.
+
+### 🔑 Goals of Cryptography:
+
+* **Confidentiality** – Ensuring only intended recipients can read the message
+* **Integrity** – Data is not altered in transit
+* **Authentication** – Verifying sender's identity
+* **Non-repudiation** – Sender cannot deny sending the message
+
+---
+
+## 🛒 2. E-Commerce Security
+
+### 🧷 Requirements:
+
+* **Authentication** (digital certificates)
+* **Confidentiality** (encryption)
+* **Data Integrity** (hashing)
+* **Non-repudiation** (digital signatures)
+* **Availability** (secure servers)
+
+### 🔐 Technologies used:
+
+* SSL/TLS
+* HTTPS
+* Digital Signatures
+* Firewalls
+* Secure payment gateways
+
+---
+
+## ✉️ 3. Message Authentication, Hash Functions, Message Digests
+
+### 📬 Message Authentication:
+
+* Confirms the origin and integrity of a message
+* Done using MAC (Message Authentication Code)
+
+### 🔃 Hash Functions:
+
+* One-way mathematical functions that convert input into fixed-size output
+* Examples: MD5, SHA-1, SHA-256
+
+### 🧾 Message Digest:
+
+* The output of a hash function
+* Used in digital signatures to represent a message in fixed size
+
+---
+
+## 📐 4. Number Theory for Information Security
+
+### 🔢 Key Concepts:
+
+* **Prime Numbers**: Used in RSA
+* **Modular Arithmetic**: `a mod n`
+* **GCD (Greatest Common Divisor)**: Used in key generation
+* **Euler's Totient Function (φ(n))**: Important in RSA
+* **Fermat's and Euler's Theorems**: Basis of public-key cryptography
+
+---
+
+## 🔓 5. Public Key Algorithms, PKI, and PKI Applications
+
+### 🔐 Public Key Cryptography:
+
+* Two keys: public (shared) & private (secret)
+* Used for encryption, digital signatures
+
+### 🔁 Examples:
+
+* RSA, ECC (Elliptic Curve Cryptography)
+
+### 🏛️ Public Key Infrastructure (PKI):
+
+* A framework that manages public keys
+* Includes:
+
+  * Certificate Authority (CA)
+  * Registration Authority (RA)
+  * Public Key Certificates
+
+### 🖥️ Applications:
+
+* Secure email (e.g., S/MIME)
+* SSL/TLS for websites
+* Code signing
+* VPNs
+
+---
+
+## 🔗 6. Cryptographic Protocols and Digital Signature
+
+### 📜 Cryptographic Protocols:
+
+* Rules and procedures for secure communication
+* Examples:
+
+  * SSL/TLS
+  * IPsec
+  * SSH
+  * Kerberos
+
+### ✍️ Digital Signature:
+
+* A hash of a message encrypted with a sender's **private key**
+* Ensures:
+
+  * Authentication
+  * Integrity
+  * Non-repudiation
+
+---
+
+## 💧 7. Digital Watermarking and Steganography
+
+### 🌊 Digital Watermarking:
+
+* Embedding copyright or ownership info into media (e.g., images, audio)
+* Used to prove ownership
+
+### 🕵️‍♂️ Steganography:
+
+* Hiding a message within another file (e.g., image or audio)
+* Focuses on hiding the **existence** of communication
+* Different from encryption (which hides the **content**)
+
+---
+
+## 🧬 8. Biometric Security
+
+### 🔍 Definition:
+
+* Uses biological traits for authentication
+
+### 🧑‍💻 Types:
+
+* Fingerprints
+* Iris/retina scans
+* Facial recognition
+* Voice recognition
+
+### 🛠️ Advantages:
+
+* Difficult to forge
+* Convenient for users
+
+### 🔧 Disadvantages:
+
+* Privacy concerns
+* Can't change if compromised
+
+---
+
+## 🔏 9. Encryption & Symmetric Key Encryption
+
+### 🔐 Encryption:
+
+* Converts plaintext into ciphertext using a key
+
+### 🤝 Symmetric Key Encryption:
+
+* Same key for both encryption and decryption
+* Faster than public key cryptography
+* Example: AES, DES
+
+---
+
+## 🔐 10. Data Encryption Standard (DES)
+
+### 📖 Overview:
+
+* A symmetric-key block cipher
+* Operates on 64-bit blocks with a 56-bit key
+* Uses 16 rounds of permutation and substitution
+
+### ❌ Weakness:
+
+* Vulnerable to brute-force attack due to small key size
+* Replaced by AES in modern systems
+
+---
+
+## 🔐 11. Kerberos
+
+### 🔒 Definition:
+
+* A network authentication protocol using secret-key cryptography
+
+### 📘 Working:
+
+1. User logs in and requests a ticket from **Authentication Server (AS)**
+2. AS sends a ticket granting ticket (TGT)
+3. User requests access to a service from **Ticket Granting Server (TGS)**
+4. TGS issues a session ticket to access the service
+
+### ✅ Features:
+
+* Prevents password transmission over network
+* Uses time-stamped tickets to reduce replay attacks
+
+---
+
+## ✅ Summary Table
+
+| Topic                 | Key Concepts                               |
+| --------------------- | ------------------------------------------ |
+| Cryptography          | Securing data through encryption           |
+| E-Commerce Security   | Authentication, integrity, non-repudiation |
+| Hash Functions        | One-way, fixed-size output (e.g., SHA-256) |
+| Public Key Algorithms | RSA, ECC – asymmetric encryption           |
+| Digital Signature     | Authentication + integrity                 |
+| Watermarking          | Embeds ownership info                      |
+| Steganography         | Hides message existence                    |
+| Biometric Security    | Fingerprint, iris, face – user-based auth  |
+| Symmetric Encryption  | Same key, fast (e.g., AES, DES)            |
+| DES                   | Old standard, 56-bit key                   |
+| Kerberos              | Secure ticket-based network authentication |
+
+---
