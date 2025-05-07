@@ -1143,3 +1143,154 @@ It is the process of **identifying, assessing, and mitigating risks** to an orga
 
 ---
 
+# 📘 Module VI: Case Studies
+
+---
+
+## 🦠 1. **Ransomware Evolution**
+
+### 🔐 What is Ransomware?
+
+Malicious software that encrypts a victim's files or locks systems, demanding a ransom to restore access.
+
+### 🔄 Evolution:
+
+| Generation | Characteristics                                                                 |
+| ---------- | ------------------------------------------------------------------------------- |
+| 1st Gen    | Simple encryption (e.g., AIDS Trojan - 1989)                                    |
+| 2nd Gen    | Stronger encryption, wide distribution (e.g., CryptoLocker - 2013)              |
+| 3rd Gen    | Ransomware-as-a-Service (RaaS) & double extortion (e.g., REvil, Maze)           |
+| 4th Gen    | Targeted attacks on healthcare, finance, critical infra (e.g., WannaCry, Conti) |
+
+### 🔥 Notable Case:
+
+* **WannaCry (2017)**: Exploited SMB vulnerability in Windows; affected 200,000+ computers globally.
+
+### 🛡️ Prevention:
+
+* Regular backups
+* Patching systems
+* Email filtering and endpoint protection
+
+---
+
+## 🤖 2. **AI Expansion**
+
+### 🧠 Role of AI in Cybersecurity:
+
+* AI helps detect threats in real-time
+* Machine Learning improves anomaly detection
+* Automates response to incidents
+
+### ⚠️ Risks from AI:
+
+* **AI-powered Malware**: Adaptive, self-learning attacks
+* **Data Poisoning**: Corrupts training data to mislead ML models
+* **Deepfakes**: Fake videos used in fraud, impersonation
+
+### 🔍 Case Example:
+
+* **Darktrace**: Uses AI for enterprise threat detection
+* **DeepLocker (IBM)**: AI-powered malware that targets only when specific conditions are met
+
+### ✅ Defensive Use:
+
+* AI for behavior-based intrusion detection
+* Automating phishing detection
+* AI in fraud analytics for banks
+
+---
+
+## 🌐 3. **IoT Threats**
+
+### 🔌 What is IoT?
+
+Internet of Things: interconnected smart devices (sensors, cameras, home appliances)
+
+### 🚨 Security Issues:
+
+* Weak passwords
+* No encryption
+* Lack of firmware updates
+* Botnet attacks (e.g., Mirai)
+
+### 📌 Notable Attack:
+
+* **Mirai Botnet (2016)**:
+
+  * Compromised IoT devices (cameras, routers)
+  * Launched large-scale DDoS attacks on DNS provider Dyn
+
+### 🔒 Solutions:
+
+* Network segmentation
+* Strong device authentication
+* Secure firmware updates
+
+---
+
+## ⛓️ 4. **Blockchain Revolution**
+
+### 🔗 What is Blockchain?
+
+A decentralized ledger technology used in cryptocurrencies and secure digital transactions.
+
+### 🔐 Cybersecurity Advantages:
+
+* **Immutability**: Once added, data cannot be altered
+* **Transparency**: Each block is verified
+* **Decentralization**: Reduces single point of failure
+
+### ✅ Use Cases in Security:
+
+* **Secure Digital Identity** (e.g., uPort)
+* **Smart Contracts** (e.g., Ethereum)
+* **Supply Chain Integrity** (e.g., IBM Food Trust)
+
+### ⚠️ Vulnerabilities:
+
+* Smart contract bugs (e.g., The DAO hack, 2016)
+* 51% attack risk on smaller blockchains
+* Private key theft
+
+---
+
+## ☁️ 5. **Serverless Apps Vulnerability**
+
+### 🖥️ What is Serverless Computing?
+
+A cloud-computing model where applications run without managing servers (e.g., AWS Lambda, Azure Functions)
+
+### 🧱 Architecture:
+
+* Event-driven functions
+* Scales automatically
+* Pay-per-use model
+
+### ⚠️ Security Issues:
+
+* **Insecure APIs**: Attackers may exploit poor validation
+* **Function Injection**: Malicious code in input triggers code execution
+* **Inadequate Logging**: Hard to trace attacks
+* **Third-party dependencies**: Can introduce vulnerabilities
+
+### 🛡️ Security Measures:
+
+* Principle of Least Privilege (PoLP)
+* Secure API Gateway
+* Continuous monitoring and auditing
+* Code scanning tools (e.g., Snyk)
+
+---
+
+## 📝 Summary Table:
+
+| Case Study | Key Risk                    | Solution                                 |
+| ---------- | --------------------------- | ---------------------------------------- |
+| Ransomware | File encryption & extortion | Backup, patching, EDR                    |
+| AI         | Deepfakes, AI-malware       | Behavior detection, adversarial training |
+| IoT        | DDoS via weak devices       | Secure config, firmware updates          |
+| Blockchain | Smart contract bugs         | Audits, secure coding                    |
+| Serverless | API abuse, poor isolation   | Secure coding, IAM policies              |
+
+---
