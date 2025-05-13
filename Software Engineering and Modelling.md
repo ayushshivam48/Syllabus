@@ -551,10 +551,10 @@ Where:
 The discipline of managing changes in software products during the development life cycle.
 
 ### Activities:
-- Version Control
-- Change Control
-- Build Management
-- Release Management
+- Version Control : The practice of tracking and managing changes to files, particularly code, over time, allowing developers to work collaboratively and efficiently.
+- Change Control : A structured process for managing modifications to a software system, ensuring changes are well-defined, assessed, and implemented in a controlled manner.
+- Build Management : The process of compiling and packaging software, often through automated tools and processes, ensuring a consistent and reliable product for release.
+- Release Management : The process of planning, designing, scheduling, testing, deploying, and controlling software releases.
 
 ### Tools:
 - Git, SVN, CVS, Mercurial
@@ -589,10 +589,10 @@ Constraints shape the project scope, design, and execution strategy.
 Evaluating a product's quality to ensure it meets specified standards and customer expectations.
 
 ### Techniques:
-- Reviews and Inspections
-- Testing (Unit, Integration, System)
-- Audits
-- Performance Monitoring
+- Reviews and Inspections : Peer review of any work product by trained individuals who look for defects using a well defined process.
+- Testing (Unit, Integration, System) : Verifies and validates a software application to ensure its safety, compliance, and user satisfaction.
+- Audits : A systematic process of examining software development practices, processes, and products to ensure they adhere to industry standards, organizational requirements, and best practices.
+- Performance Monitoring : It  involves tracking and analyzing key metrics of an application's behavior to ensure it meets predefined performance objectives and user expectations.
 
 ## 8. Quality and Productivity Relationship
 
@@ -614,37 +614,37 @@ A set of activities to ensure software products meet quality standards.
 - Quality Control - Detect defects via testing and inspections.
 
 ### Related Processes:
-- Defect Prevention
-- Process Improvement
-- Root Cause Analysis
+- Defect Prevention : A measure to ensure that defects being detected so far, should not appear or occur again.
+- Process Improvement : A systematic approach to identify, evaluate, and enhance existing software development processes.
+- Root Cause Analysis : A systematic approach to identify the underlying reasons for defects or failures, rather than just addressing surface-level symptoms.
 
 ## 10. Quality Management System (QMS) Structure and Pillars of QMS
 
 ### QMS Structure:
-- Organizational Structure
-- Defined Processes
-- Roles and Responsibilities
-- Quality Policies and Objectives
-- Measurement and Improvement Mechanisms
+- Organizational Structure : It defines how activities like task allocation, coordination, and supervision are directed towards achieving quality objectives.
+- Defined Processes : It outline how tasks are performed, what documents are used, and who is responsible for them.
+- Roles and Responsibilities : They are structured to ensure consistent quality throughout the development lifecycle.
+- Quality Policies and Objectives : Quality policies establish the overarching commitment to quality, while quality objectives are specific, measurable goals that guide the implementation of those policies. 
+- Measurement and Improvement Mechanisms : Crucial for ensuring the consistent delivery of high-quality software.
 
 ### Pillars of QMS:
-1. Customer Focus
-2. Leadership
-3. Engagement of People
-4. Process Approach
-5. Continuous Improvement
-6. Evidence-Based Decision Making
-7. Relationship Management
+1. Customer Focus : It ensures that your customer receives the benefit of a product or service you are offering. 
+2. Leadership : It provides direction, motivation, and guidance to the organization's quality improvement efforts.
+3. Engagement of People : The most valuable asset of any organization consists of competent and engaged people.
+4. Process Approach : It focuses on managing activities as interconnected processes, ensuring consistency and efficiency in delivering software products.
+5. Continuous Improvement : It involves a proactive and ongoing effort to enhance the quality of products, services, or processes, often through incremental changes.
+6. Evidence-Based Decision Making : It ensuring decisions are informed by data and analysis rather than guesswork.
+7. Relationship Management : It focuses on effectively managing relationships with stakeholders to ensure sustainable success and achieve quality objectives. 
 
 ## 11. Important Aspects of Quality Management
 
-1. Customer Satisfaction
-2. Defect Density
-3. Process Maturity
-4. Compliance with Standards (ISO, CMMI)
-5. Team Skill and Training
-6. Tools and Automation
-7. Monitoring and Auditing
+1. Customer Satisfaction : Extent to which a software product or service meets or exceeds customer expectations.
+2. Defect Density : It measures the quality of a software product by quantifying the number of defects found relative to its size, typically expressed as defects per unit of code (e.g., per thousand lines of code). 
+3. Process Maturity : The level of development and growth of an organization's software development processes.
+4. Compliance with Standards (ISO, CMMI) : It ensures that software development, deployment, and usage adhere to relevant laws, regulations, standards, and ethical principles.
+5. Team Skill and Training : Training programs should focus on both technical skills (programming, testing, debugging) and soft skills (communication, leadership, collaboration) to enhance team performance. 
+6. Tools and Automation : Software programs that automate manual and repetitive tasks in software development, saving time and resources while improving efficiency and quality.
+7. Monitoring and Auditing : Monitoring involves continuously observing system performance, while auditing is a periodic, comprehensive evaluation of software, processes, and practices against established standards and requirements.
 
 ## Summary Table
 
