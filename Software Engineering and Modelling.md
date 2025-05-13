@@ -502,13 +502,13 @@ Testing with full knowledge of internal structures or workings of a program.
 The process of setting goals, defining scope, estimating resources (time, cost, manpower), and scheduling tasks for successful software project execution.
 
 ### Key Components:
-- Project Scope
-- Work Breakdown Structure (WBS)
-- Effort and Time Estimation
-- Resource Allocation
-- Risk Management
-- Scheduling (e.g., Gantt Charts, PERT/CPM)
-- Milestone Definition
+- Project Scope : The boundaries of a project by outlining what is included, what is excluded, and how the team will deliver the final outcome.
+- Work Breakdown Structure (WBS) : A hierarchical decomposition of a project's scope, breaking it down into smaller, more manageable components.
+- Effort and Time Estimation : Effort estimation focuses on the work needed to complete a task, while time estimation focuses on the calendar time required. 
+- Resource Allocation : The process of distributing and managing resources effectively to achieve specific goals, whether in business, project management, or other contexts.
+- Risk Management : The process of identifying, assessing, and controlling threats to an organization's goals and objectives.
+- Scheduling (e.g., Gantt Charts, PERT/CPM) : Involves planning and organizing events or tasks to be done at specific times, often using tools like calendars or software.
+- Milestone Definition : Represents a key point in a project's lifecycle, marking significant progress or achievement.
 
 ## 2. Software Metrics
 
