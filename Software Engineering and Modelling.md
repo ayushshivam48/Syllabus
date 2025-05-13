@@ -33,12 +33,12 @@ Software Engineering is the systematic, disciplined, and quantifiable approach t
 ## 3. Role and Responsibilities of a Software Engineer
 
 ### Roles:
-- Software Developer
-- System Analyst
-- Quality Assurance Engineer
-- Project Manager
-- UI/UX Designer
-- DevOps Engineer
+- Software Developer : Professionals who create, design, and maintain software applications.
+- System Analyst : A professional who analyzes, designs, and implements information systems to improve organizational efficiency and effectiveness.
+- Quality Assurance Engineer : Plays a crucial role in ensuring that software products meet quality standards before release.
+- Project Manager : A professional responsible for planning, organizing, and overseeing the completion of a project.
+- UI/UX Designer : Focus on creating user-friendly digital products and experiences.
+- DevOps Engineer : An IT professional who bridges the gap between software development and IT operations teams to streamline the software development lifecycle.
 
 ### Responsibilities:
 - Understanding requirements
