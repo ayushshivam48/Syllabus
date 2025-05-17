@@ -350,3 +350,180 @@ How a problem is represented plays a key role in designing an AI solution.
 | Common Problems            | Combinatorial explosion, limited time, imperfect info, evaluation limitations |
 
 ---
+
+## Module IV: Logic and Knowledge Representation
+
+---
+
+### PART A: Knowledge Representation (KR)
+
+> **Definition**: Knowledge Representation is a method used to structure and store knowledge in a format that an AI system can utilize to solve complex tasks like diagnosis, planning, or learning.
+
+---
+
+#### 1. Associative Networks (Semantic Networks)
+
+- **Graph-based structure** of nodes (concepts) and links (relations)
+- **Used for** representing knowledge in a network of related ideas
+
+**Example**:
+
+Dog → is-a → Animal
+Dog → has → Tail
+
+
+- **Types of Links**:
+  - **Is-a** (inheritance)
+  - **Has-a** (attribute/property)
+  - **Part-of**
+
+---
+
+#### 2. Frame Structures
+
+- A **data structure** for representing a stereotyped situation
+- Each frame consists of **slots** (attributes) and **fillers** (values)
+
+**Example**:
+
+Frame: Car
+
+Type: Vehicle
+
+Wheels: 4
+
+Engine: Yes
+
+
+- Supports **inheritance**, **default values**, and **procedural attachment**
+
+---
+
+#### 3. Conceptual Dependencies (CD)
+
+- Used for **natural language understanding**
+- Represents meaning using **primitive actions** and fixed relations
+
+**Key primitives**:
+- **PTRANS** – physical transfer (e.g., go)
+- **ATRANS** – abstract transfer (e.g., give)
+- **MTRANS** – mental transfer (e.g., tell)
+- **PROPEL** – apply force
+
+**Example**:
+
+"John gave a book to Mary" → ATRANS(John, Book, Mary)
+
+
+---
+
+#### 4. Scripts
+
+- Structured knowledge for **event sequences**
+- Represent **standard scenarios** (e.g., restaurant visit)
+
+**Script: Restaurant**:
+
+Entry → Ordering → Eating → Paying → Exit
+
+
+- Helps AI understand **contextual expectations**
+
+---
+
+### PART B: Logic
+
+> Logic is used to **reason** and **infer** new information from known facts.
+
+---
+
+#### 1. Propositional Logic
+
+**Syntax**:
+- Propositions (P, Q, R...)
+- Connectives: AND (∧), OR (∨), NOT (¬), IMPLIES (→), IFF (↔)
+
+**Semantics**:
+- Each proposition is **true/false**
+- Uses **truth tables** for evaluation
+
+---
+
+#### 2. First Order Predicate Logic (FOPL)
+
+**Syntax**:
+- Extends propositional logic with:
+  - **Predicates**: P(x), Loves(John, Mary)
+  - **Quantifiers**:
+    - ∀ (For all)
+    - ∃ (There exists)
+  - Variables, Constants, Functions
+
+**Semantics**:
+- Based on **interpretations and domains**
+- Assigns meaning to constants, predicates, functions
+
+---
+
+#### 3. Conversion to Clausal Form
+
+> Required for resolution-based inference
+
+**Steps**:
+1. Eliminate bi-conditionals and implications
+2. Move NOT inward (De Morgan's laws)
+3. Standardize variables
+4. Move quantifiers to front (Prenex form)
+5. Skolemize (remove existential quantifiers)
+6. Drop universal quantifiers
+7. Convert to **CNF (Conjunctive Normal Form)**
+
+---
+
+#### 4. Inference Rules
+
+**Common rules**:
+- **Modus Ponens**: If P → Q and P, then Q
+- **Modus Tollens**: If P → Q and ¬Q, then ¬P
+- And-Elimination, Or-Introduction
+
+---
+
+#### 5. Unification
+
+- Makes two logical expressions **identical** via substitution
+- Used in **automated reasoning** and **Prolog**
+
+**Example**:
+
+Loves(x, y) and Loves(John, y) → x = John
+
+
+---
+
+#### 6. Resolution Principle
+
+- Main inference rule in FOPL
+- Based on **refutation** (proof by contradiction)
+- Works on **clausal form (CNF)**
+
+**Example**:
+1. ¬P ∨ Q
+2. P
+→ Resolve: Q
+
+---
+
+### Summary Table
+
+| Concept                 | Description                                      |
+|-------------------------|--------------------------------------------------|
+| Associative Network     | Graph of concepts with relationships            |
+| Frame Structure         | Slots and values for stereotypes                |
+| Conceptual Dependency   | Action primitives for language understanding    |
+| Script                  | Standard event sequences                        |
+| Propositional Logic     | Boolean statements and operators                |
+| Predicate Logic (FOPL)  | Adds predicates, quantifiers                    |
+| Clausal Form            | CNF format for resolution                       |
+| Unification             | Matching expressions via substitution           |
+| Resolution Principle    | Derives contradictions to prove conclusions     |
