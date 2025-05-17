@@ -117,3 +117,138 @@ How a problem is represented plays a key role in designing an AI solution.
 | Types of Production System | Monotonic, Non-monotonic, Deterministic, Non-deterministic |
 
 ---
+
+## Module II: Heuristic Search Techniques
+
+---
+
+### 1. AI and Search Process
+
+- **AI Problem Solving = Search**  
+  AI uses **search** to explore possible solutions in a **state space**.
+
+- **Key Concepts**:
+  - **Initial State**: Starting point.
+  - **Goal State**: Desired outcome.
+  - **Operators**: Rules to move between states.
+  - **Path Cost**: Total cost from start to goal.
+
+---
+
+### 2. Brute Force Search
+
+- **Definition**: Uninformed search that blindly explores all possible paths.
+- **Types**:
+  - **Depth-First Search (DFS)**
+  - **Breadth-First Search (BFS)**
+
+---
+
+### 3. Depth-First Search (DFS)
+
+- **Strategy**: Explores as far as possible along each branch before backtracking.
+- **Data Structure**: Stack (can use recursion).
+- **Time Complexity**: O(b^m)  
+  *(b = branching factor, m = max depth)*
+- **Space Complexity**: O(m)
+- **Advantage**: Low memory usage.
+- **Disadvantage**: May get stuck in infinite loops if not careful.
+
+---
+
+### 4. Breadth-First Search (BFS)
+
+- **Strategy**: Explores all nodes at the present depth before going deeper.
+- **Data Structure**: Queue
+- **Time Complexity**: O(b^d)  
+  *(d = depth of goal node)*
+- **Space Complexity**: O(b^d)
+- **Advantage**: Guaranteed to find shortest path.
+- **Disadvantage**: High memory usage.
+
+---
+
+### 5. Heuristic Search
+
+- **Heuristic**: An estimate or rule of thumb that helps in decision making.
+- **Used to**: Prioritize paths that seem more promising.
+- **Heuristic Function (h(n))**: Estimates cost from node `n` to goal.
+
+---
+
+### 6. Hill Climbing
+
+- **Strategy**: Move to neighbor with highest value (greedy).
+- **Types**:
+  - Simple Hill Climbing
+  - Steepest-Ascent Hill Climbing
+  - Stochastic Hill Climbing
+- **Problem**: Gets stuck in local maxima, plateaus, or ridges.
+
+---
+
+### 7. Best First Search
+
+- **Strategy**: Selects the most promising node based on heuristic value.
+- **Data Structure**: Priority Queue
+- **Evaluation Function**: `f(n) = h(n)`
+- **Advantage**: Faster than BFS/DFS for large search spaces.
+
+---
+
+### 8. A* Algorithm
+
+- **Evaluation Function**:  
+  `f(n) = g(n) + h(n)`  
+  - `g(n)` = cost from start to node `n`  
+  - `h(n)` = estimated cost from `n` to goal  
+- **Optimal and Complete**, if `h(n)` is **admissible** (never overestimates).
+- **Time Complexity**: Exponential in worst case.
+- **Widely used in**: Maps, games, robotics.
+
+---
+
+### 9. Beam Search
+
+- **Modification of Best First Search**.
+- Explores only **k-best nodes** at each level (beam width = k).
+- **Advantage**: Less memory.
+- **Disadvantage**: May miss optimal solution.
+
+---
+
+### 10. AO* Algorithm
+
+- Used for solving problems that can be broken into **AND-OR graphs**.
+- **AO* = A-star for AND-OR graphs**.
+- Suitable for **problem reduction** and **planning** tasks.
+- Selects nodes based on minimum cost path through an AND-OR tree.
+
+---
+
+### 11. Constraint Satisfaction Problems (CSPs)
+
+- **Definition**: Problems defined by variables, domains, and constraints.
+- **Examples**: Sudoku, Map Coloring, N-Queens.
+- **Techniques**:
+  - Backtracking
+  - Forward Checking
+  - Constraint Propagation (e.g., AC-3 algorithm)
+- **Goal**: Assign values to variables such that all constraints are satisfied.
+
+---
+
+### Summary Table
+
+| **Technique**      | **Type**         | **Uses Heuristic?** | **Key Features**                          |
+| ------------------ | ---------------- | ------------------- | ----------------------------------------- |
+| BFS                | Uninformed       | No                  | Complete, finds shortest path             |
+| DFS                | Uninformed       | No                  | Low memory, may not find best solution    |
+| Hill Climbing      | Heuristic        | Yes                 | Greedy, can get stuck                     |
+| Best First Search  | Heuristic        | Yes                 | Uses `f(n) = h(n)`                        |
+| A* Search          | Heuristic        | Yes                 | Optimal, uses `f(n) = g(n) + h(n)`        |
+| Beam Search        | Heuristic        | Yes                 | Memory-efficient, approximate             |
+| AO* Search         | Heuristic        | Yes                 | AND-OR graphs, planning                   |
+| CSP (e.g., Sudoku) | Constraint-Based | No (usually)        | Variables + Constraints, solved via logic |
+
+---
