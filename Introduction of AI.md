@@ -252,3 +252,101 @@ How a problem is represented plays a key role in designing an AI solution.
 | CSP (e.g., Sudoku) | Constraint-Based | No (usually)        | Variables + Constraints, solved via logic |
 
 ---
+
+## Module III: Game Playing
+
+---
+
+### 1. AI and Game Playing
+
+- **Definition**:  
+  Game playing in AI refers to building agents that can play games intelligently by making optimal decisions based on the current game state.
+
+- **Purpose**:
+  - To simulate intelligent behavior.
+  - To test decision-making algorithms.
+  - To understand adversarial search.
+
+- **Game Types**:
+  - **Deterministic vs. Non-deterministic** (chance involved or not)
+  - **Perfect Information vs. Imperfect Information**
+  - **Zero-Sum Games**: One player's gain is another's loss (e.g., Chess, Tic-Tac-Toe).
+
+---
+
+### 2. Plausible Move Generator
+
+- **Definition**:  
+  A function that generates a subset of **possible legal moves** that appear to be **plausible or promising**.
+
+- **Why used?**
+  - To reduce the **search space**.
+  - Improve **efficiency** of game-tree evaluation.
+  - Useful in complex games (e.g., Chess) where exploring all moves is impractical.
+
+---
+
+### 3. Static Evaluation Function
+
+- **Definition**:  
+  A function that estimates the **goodness** of a position without doing any further search.
+
+- **Used when**:
+  - The game tree cannot be searched to terminal nodes due to complexity.
+
+- **Example**:
+  - In Chess, evaluation may consider:
+    - Material balance
+    - Piece positioning
+    - Control of the center
+    - King safety
+
+---
+
+### 4. Game Playing Strategies
+
+#### i. Minimax Algorithm:
+- Used for **two-player** games.
+- Assumes both players play optimally.
+- Max player tries to maximize the score; Min player tries to minimize it.
+
+#### ii. Alpha-Beta Pruning:
+- Optimized version of Minimax.
+- Prunes branches that won't influence the final decision.
+- Improves efficiency by reducing the number of nodes evaluated.
+
+#### iii. Cut-off Search:
+- Limits the depth of search tree.
+- Uses **static evaluation** at the cut-off depth.
+
+#### iv. Expectiminimax:
+- Used for games with **chance elements** (e.g., Backgammon).
+- Combines Minimax with **probabilities** at chance nodes.
+
+---
+
+### 5. Problems in Game Playing
+
+| **Problem**                 | **Explanation**                                                                   |
+|-----------------------------|-----------------------------------------------------------------------------------|
+| **Combinatorial Explosion** | Number of possible moves increases exponentially (e.g., Chess has 10^120 states). |
+| **Real-time Constraints**   | AI must make decisions in limited time.                                           |
+| **Imperfect Information**   | In games like Poker, not all information is visible.                              |
+| **Resource Limitation**     | Memory and processing power limitations prevent full search.                      |
+| **Evaluation Inaccuracy**   | Static evaluation functions may misjudge complex positions.                       |
+
+---
+
+### Summary Table
+
+| **Concept**                | **Description**                                                               |
+|----------------------------|-------------------------------------------------------------------------------|
+| AI in Game Playing         | Making intelligent agents to play games optimally                             |
+| Plausible Move Generator   | Selects promising moves to reduce computation                                 |
+| Static Evaluation Function | Evaluates non-terminal game states                                            |
+| Minimax                    | Decision-making strategy for two-player games                                 |
+| Alpha-Beta Pruning         | Skips unnecessary branches in game tree                                       |
+| Expectiminimax             | Handles chance in games                                                       |
+| Common Problems            | Combinatorial explosion, limited time, imperfect info, evaluation limitations |
+
+---
